@@ -39,7 +39,7 @@ try:
                 track = row[TRACK_COL]
                 artist = row[ARTIST_COL]
                 search_query = f"{track} {artist}"
-                search_results = yt.search(search_query)
+                search_results = yt.search(search_query, 'songs')
                 
 
                 retries = 0
